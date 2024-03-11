@@ -32,6 +32,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 If you can see the following screen, you made it! congrats 🎉
 
+![Dark Mode Screen](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.16%20PM_1.png)
+
+[Demo]
 ![](https://github.com/James-kamwendo/dark-mode/blob/main/DarkMode.gif)
 
 ## Adding Dark/Light Mode feature In Your Project

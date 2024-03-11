@@ -1,4 +1,8 @@
+## Dark Mode Feature Using NextJs, Tailwindcss, Next Themes
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+![](https://github.com/James-kamwendo/dark-mode/blob/main/Dark%20mode%20feature%20.png)
 
 ## Getting Started
 

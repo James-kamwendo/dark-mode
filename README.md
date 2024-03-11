@@ -32,18 +32,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 If you can see the following screens, you made it! congrats 🎉
 
-!['Light Mode Screen'](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.44%20PM_1.png)
+![](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.44%20PM_1.png)
 
 ![Dark Mode Screen](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.16%20PM_1.png)
 
-[Demo]
+`Demo`
+
 ![](https://github.com/James-kamwendo/dark-mode/blob/main/DarkMode.gif)
 
 ## Adding Dark/Light Mode feature In Your Project
 
 
-1. Initialize your project [`npx create-next-app`] and choose to add tailwindcss to avoid adding it manually
-2. In your tailwind.config.ts file, inside the module.exports add [`darkMode: 'class',`]
+1. Initialize your project `npx create-next-app` and choose to add tailwindcss to avoid adding it manually
+2. In your tailwind.config.ts file, inside the module.exports add `darkMode: 'class',`
 3. In your globals.css make sure you have these three tailwind classes: 
     
    - @tailwind base;
@@ -56,7 +57,7 @@ npm i next-themes
 ```
  in the root folder of your project.
  
-5. Next, wrap your [`<Component {...pageProps} />`] with [`<ThemeProvider>`] from next-themes you just installed inside the [_app.tsx] if using TypeScript like me, if not then in [_app.js]
+5. Next, wrap your `<Component {...pageProps} />` with `<ThemeProvider>` from next-themes you just installed inside the `_app.tsx` if using TypeScript like me, if not then in `_app.js`
 
 It should look something like this:
 
@@ -74,12 +75,12 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 ```
 
-Notice that [`enableSystem`] is set to true saying that by default the theme to be activated once the application gets loaded is system's default theme i.e Light or Dark Mode. Also [`attribute`] is set to [`class`] just like the darkMode: class we set in the config file for tailwind.
+Notice that `enableSystem` is set to true saying that by default the theme to be activated once the application gets loaded is system's default theme i.e Light or Dark Mode. Also `attribute` is set to `class` just like the darkMode: class we set in the config file for tailwind.
 
 6. [Optional] I installed react-icons package as well for icons.
 
 That's all, please feel free to tell what you think of this approach. also I would feel encouraged if you could give it a star 😉✨ but nonetheless your support, contributions and feedback are welcome!
 
 ## Would you like to connect?
-- Find me on LinkedIn [James Kamwendo](https://linkedin.com/james-kamwendo) or email [me](jameskamwendo226@gmail.com)
-- You can also follow me on GitHub [](https://github.com/James-kamwendo)
+- Find me on LinkedIn [/in/James Kamwendo](https://linkedin.com/james-kamwendo) or email [me](jameskamwendo226@gmail.com)
+- You can also follow me on GitHub [/James-kamwendo](https://github.com/James-kamwendo)

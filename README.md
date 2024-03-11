@@ -30,7 +30,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-If you can see the following screen, you made it! congrats 🎉
+If you can see the following screens, you made it! congrats 🎉
+
+!['Light Mode Screen'](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.44%20PM_1.png)
 
 ![Dark Mode Screen](https://github.com/James-kamwendo/dark-mode/blob/main/Screen%20Shot%202024-03-11%20at%205.27.16%20PM_1.png)
 

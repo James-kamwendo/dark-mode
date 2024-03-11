@@ -2,9 +2,12 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+
 ![](https://github.com/James-kamwendo/dark-mode/blob/main/Dark%20mode%20feature%20.png)
 
+
 It will be a lie to say everyone likes bright staff, abit dim or darkness is convenient for others who are trying to use your system. here is how you can add dark/light mode or theme in [Next Js]. The set up is simple, follow through the steps below.
+
 
 ## Getting Started
 
@@ -29,40 +32,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 If you can see the following screen, you made it! congrats 🎉
 
+![](https://github.com/James-kamwendo/dark-mode/blob/main/DarkMode.gif)
+
+## Adding Dark/Light Mode feature In Your Project
 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Initialize your project [`npx create-next-app`] and choose to add tailwindcss to avoid adding it manually
+2. In your tailwind.config.ts file, inside the module.exports add [`darkMode: 'class',`]
+3. In your globals.css make sure you have these three tailwind classes: 
+    
+   - @tailwind base;
+   - @tailwind components;
+   - @tailwind utilities;
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-### Dark Mode Feature in NextJs with Tailwindsss
-
-[x] initialize your project (npx create-next-app) and choose to add tailwindcss to avoid adding it manually
-[x] in your tailwind.config.ts file, inside the module.exports add [`darkMode: 'class',`]
-[x] in your globals.css make sure you have these three tailwind class: 
-    - @tailwind base;
-    - @tailwind components;
-    - @tailwind utilities;
-
-[x] Once you're done with that, its time to install the next-themes package by running [`npm i next-themes`] in the root folder of your project.
-[x] Next, wrap your [`<Component {...pageProps} />`] with [`<ThemeProvider>`] from next-themes you just installed inside the [_app.tsx] if using TypeScript like me, if not then in [_app.js]
+4. Once everything looks in order, its time to install the next-themes package by running
+```bash
+npm i next-themes
+```
+ in the root folder of your project.
+ 
+5. Next, wrap your [`<Component {...pageProps} />`] with [`<ThemeProvider>`] from next-themes you just installed inside the [_app.tsx] if using TypeScript like me, if not then in [_app.js]
 
 It should look something like this:
 
@@ -80,6 +69,12 @@ export default function App({ Component, pageProps }: AppProps) {
 }
 ```
 
-Notice that I enableSystem to true saying that by default the theme to be activated once the application get loaded is system's theme. Also attribute i set it to class just like the darkMode: class we set in the config file for tailwind. This is the simple way for adding dark mode theme.
+Notice that [`enableSystem`] is set to true saying that by default the theme to be activated once the application gets loaded is system's default theme i.e Light or Dark Mode. Also [`attribute`] is set to [`class`] just like the darkMode: class we set in the config file for tailwind.
 
-[x] I installed react-icons package as well for icons.
+6. [Optional] I installed react-icons package as well for icons.
+
+That's all, please feel free to tell what you think of this approach. also I would feel encouraged if you could give it a star 😉✨ but nonetheless your support, contributions and feedback are welcome!
+
+## Would you like to connect?
+- Find me on LinkedIn [James Kamwendo](https://linkedin.com/james-kamwendo) or email [me](jameskamwendo226@gmail.com)
+- You can also follow me on GitHub [](https://github.com/James-kamwendo)

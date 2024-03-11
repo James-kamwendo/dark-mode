@@ -42,17 +42,18 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ### Dark Mode Feature in NextJs with Tailwindsss
 
 [x] initialize your project (npx create-next-app) and choose to add tailwindcss to avoid adding it manually
-[x] in your tailwind.config.ts file, inside the module.exports add `darkMode: 'class',`
+[x] in your tailwind.config.ts file, inside the module.exports add [`darkMode: 'class',`]
 [x] in your globals.css make sure you have these three tailwind class: 
     - @tailwind base;
     - @tailwind components;
     - @tailwind utilities;
 
-[x] Once you're done with that, its time to install the next-themes package by running `npm i next-themes` in the root folder of your project.
-[x] Next, wrap your <Component {...pageProps} /> with <ThemeProvider> from next-themes you just installed inside the `_app.tsx` if using TypeScript like me, if not then in `_app.js`
+[x] Once you're done with that, its time to install the next-themes package by running [`npm i next-themes`] in the root folder of your project.
+[x] Next, wrap your [`<Component {...pageProps} />`] with [`<ThemeProvider>`] from next-themes you just installed inside the [_app.tsx] if using TypeScript like me, if not then in [_app.js]
 
 It should look something like this:
 
+```bash
 import '@/styles/globals.css'
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
@@ -64,6 +65,7 @@ export default function App({ Component, pageProps }: AppProps) {
     </ThemeProvider>
   )
 }
+```
 
 Notice that I enableSystem to true saying that by default the theme to be activated once the application get loaded is system's theme. Also attribute i set it to class just like the darkMode: class we set in the config file for tailwind. This is the simple way for adding dark mode theme.
 

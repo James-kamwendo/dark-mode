@@ -82,5 +82,5 @@ Notice that `enableSystem` is set to true saying that by default the theme to be
 That's all, please feel free to tell what you think of this approach. also I would feel encouraged if you could give it a star 😉✨ but nonetheless your support, contributions and feedback are welcome!
 
 ## Would you like to connect?
-- Find me on LinkedIn [/in/James Kamwendo](https://linkedin.com/james-kamwendo) or email [me](jameskamwendo226@gmail.com)
+- Find me on LinkedIn [/in/James Kamwendo](https://linkedin.com/in/james-kamwendo) or email [me](jameskamwendo226@gmail.com)
 - You can also follow me on GitHub [/James-kamwendo](https://github.com/James-kamwendo)

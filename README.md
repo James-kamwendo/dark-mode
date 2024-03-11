@@ -4,11 +4,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![](https://github.com/James-kamwendo/dark-mode/blob/main/Dark%20mode%20feature%20.png)
 
+It will be a lie to say everyone likes bright staff, abit dim or darkness is convenient for others who are trying to use your system. here is how you can add dark/light mode or theme in [Next Js]. The set up is simple, follow through the steps below.
+
 ## Getting Started
 
-First, run the development server:
+First, to run the project after cloning, do the following:
 
 ```bash
+#install dependencies
+npm i
+
+#spin the development server
+
 npm run dev
 # or
 yarn dev
@@ -20,7 +27,9 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+If you can see the following screen, you made it! congrats 🎉
+
+
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
